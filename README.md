@@ -1,27 +1,23 @@
-# OS-Matrix-Multiplication-Threads
+##  Requirements
 
-## Requirements
+### 🔹 C Code:
+- GCC compiler (Linux/Mac) or MinGW (Windows)
+- Pthreads library (usually included with GCC)
 
-### Pthread (C Code):
-- GCC (Linux or Windows with MinGW)
-- Pthreads library
+### 🔹 Java Code:
+- Java JDK (version 8 or above)
 
-### Java threads (JavaCode):
-- Java JDK (8 or above)
+---
 
+## 💻 How to Run
 
-##  How to Run
+### 🔹 C (Pthreads) and Java (Threads)
 
-### Pthreads(c) 
-
-```terminal
-gcc pthread_matrix.c -o matrix -lpthread
+```bash
+# 👉 Compile and run the C version
+gcc matrix_pthreads.c -o matrix -lpthread
 ./matrix
 
-
-
-### Java thread (java)
-
-```terminal
+# 👉 Compile and run the Java version
 javac javathreads_matrix.java
 java javathreads_matrix
