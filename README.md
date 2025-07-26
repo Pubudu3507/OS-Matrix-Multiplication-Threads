@@ -1,10 +1,10 @@
 ##  Requirements
 
-### 🔹 C Code:
+### Pthread (for c):
 - GCC compiler (Linux/Mac) or MinGW (Windows)
 - Pthreads library (usually included with GCC)
 
-### 🔹 Java Code:
+### Java threads (for Java):
 - Java JDK (version 8 or above)
 
 ---
