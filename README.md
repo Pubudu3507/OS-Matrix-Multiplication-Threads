@@ -1,29 +1,27 @@
 # OS-Matrix-Multiplication-Threads
 
-This project includes matrix multiplication implementations using:
+## Requirements
 
-- ✅ Pthreads in C
-- ✅ Java Threads
-
-## 📌 Requirements
-
-### C Code:
+### Pthread (C Code):
 - GCC (Linux or Windows with MinGW)
 - Pthreads library
 
-### Java Code:
+### Java threads (JavaCode):
 - Java JDK (8 or above)
 
----
 
-## 💻 How to Run
+##  How to Run
 
 ### Pthreads(c) 
 
-```bash
-gcc matrix_pthreads.c -o matrix -lpthread
+```terminal
+gcc pthread_matrix.c -o matrix -lpthread
 ./matrix
 
 
+
+### Java thread (java)
+
+```terminal
 javac javathreads_matrix.java
 java javathreads_matrix
