@@ -7,17 +7,16 @@
 ### Java threads (for Java):
 - Java JDK (version 8 or above)
 
----
 
-## 💻 How to Run
+##  How to Run
 
-### 🔹 C (Pthreads) and Java (Threads)
+###  Pthread and Java Threads
 
 ```bash
-# 👉 Compile and run the C version
-gcc matrix_pthreads.c -o matrix -lpthread
+#  Compile and run the Pthread
+gcc pthread_matrix.c -o matrix -pthread
 ./matrix
 
-# 👉 Compile and run the Java version
+#  Compile and run the Java threads
 javac javathreads_matrix.java
 java javathreads_matrix
